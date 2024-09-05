@@ -18,19 +18,25 @@ body{
 #nav-list{
   display: flex;
   float: right;
-  margin: 2rem;
+  top: 0;
+  margin: auto 3rem;
 }
 
 #nav-list li{
-  margin: 0 1.5rem;
   list-style: none;
   font-size: x-large;
 }
 
 #nav-list li a{
+  display: block;
   text-decoration: none;
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 25px;
+}
+
+#nav-list li a:hover{
+  background-color: cadetblue;
 }
 
 #welcome-section{
