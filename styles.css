@@ -1,7 +1,37 @@
-@media (max-width: 1000px){
-  
+body{
+    box-sizing: border-box;
+    background-color: blue;
+    margin: 0;
+    padding: 0;
 }
+
 #navbar{
   position: fixed;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   top: 0;
+  background-color: rgb(182, 49, 49);
+}
+
+#nav-list{
+  display: flex;
+  float: right;
+  margin: 2rem;
+}
+
+#nav-list li{
+  margin: 0 1.5rem;
+  list-style: none;
+  font-size: x-large;
+}
+
+#nav-list li a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 1000px){
+  
 }
