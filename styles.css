@@ -1,9 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 body{
-  box-sizing: border-box;
   background-color: rgb(48, 67, 128);
   margin: 0;
   padding: 0;
@@ -112,14 +115,11 @@ body{
   position: relative;
 }
 
-#collaborate *{
+#collaborate h1{
   margin-inline: auto;
   left: 0;
   right: 0;
   position: absolute;
-}
-
-#collaborate h1{
   width: fit-content;
   color: white;
   font-family: 'Lucida Sans';
@@ -128,12 +128,43 @@ body{
 }
 
 #collaborate span{
+  margin-inline: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
   width: fit-content;
   color: white;
   font-style: italic;
   top: 50%;
   font-size: 25px;
   font-family: Arial;
+}
+
+#collaborate ul{
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  padding-top: 350px;
+}
+
+#collaborate ul li {
+  list-style: none;
+}
+
+#collaborate ul li * {
+  display: inline-block;
+}
+
+#collaborate ul li p{
+  padding-right: 30px;
+  padding-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#collaborate ul li i{
+  transform: scale(2);
 }
 
 @media (max-width: 1000px){
